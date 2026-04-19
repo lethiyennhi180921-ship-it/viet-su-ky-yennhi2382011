@@ -1,16 +1,39 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Hero from "@/components/Hero";
+import Timeline from "@/components/Timeline";
+import HeroesGallery from "@/components/HeroesGallery";
+import Quiz from "@/components/Quiz";
+import Poetry from "@/components/Poetry";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
-    </div>
+    <main className="min-h-screen bg-background">
+      {/* Top nav */}
+      <header className="fixed top-0 inset-x-0 z-50 glass-imperial">
+        <div className="container mx-auto flex items-center justify-between py-3 px-4">
+          <a href="#" className="font-display text-xl md:text-2xl font-bold text-gradient-gold">
+            Sử Việt Ký
+          </a>
+          <nav className="hidden md:flex gap-6 font-display text-sm tracking-wider text-paper">
+            <a href="#timeline" className="hover:text-gold transition-colors">Dòng thời gian</a>
+            <a href="#heroes" className="hover:text-gold transition-colors">Anh hùng</a>
+            <a href="#quiz" className="hover:text-gold transition-colors">Trạng Nguyên</a>
+            <a href="#poetry" className="hover:text-gold transition-colors">Sử qua thơ</a>
+          </nav>
+        </div>
+      </header>
+
+      <Hero />
+      <Timeline />
+      <HeroesGallery />
+      <Quiz />
+      <Poetry />
+
+      <footer className="py-10 px-4 text-center border-t border-gold/30 bg-crimson-deep text-paper/80">
+        <p className="font-display italic text-gold">“Dân ta phải biết sử ta — Cho tường gốc tích nước nhà Việt Nam.”</p>
+        <p className="text-sm mt-2">Sử Việt Ký © {new Date().getFullYear()}</p>
+      </footer>
+    </main>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
