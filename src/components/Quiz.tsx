@@ -1,13 +1,20 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { quizQuestions, getRank } from "@/data/quiz";
 import { Progress } from "@/components/ui/progress";
 import { Award, Check, X, RotateCcw, Trophy } from "lucide-react";
+import { useAuth } from "@/contexts/AuthContext";
+import { supabase } from "@/integrations/supabase/client";
+import { checkAndAward } from "@/lib/badges";
+import { toast } from "@/hooks/use-toast";
 
 const Quiz = () => {
+  const { user } = useAuth();
   const [current, setCurrent] = useState(0);
   const [score, setScore] = useState(0);
   const [picked, setPicked] = useState<number | null>(null);
   const [done, setDone] = useState(false);
+  const startedAt = useRef(Date.now());
+  const saved = useRef(false);
 
   const q = quizQuestions[current];
   const progress = ((current + (picked !== null ? 1 : 0)) / quizQuestions.length) * 100;
@@ -18,9 +25,23 @@ const Quiz = () => {
     if (idx === q.answer) setScore((s) => s + 1);
   };
 
+  const finish = async (finalScore: number) => {
+    setDone(true);
+    if (!user || saved.current) return;
+    saved.current = true;
+    const duration = Math.floor((Date.now() - startedAt.current) / 1000);
+    const { error } = await supabase.from("scores").insert({
+      user_id: user.id, game_type: "trang_nguyen",
+      score: finalScore, total: quizQuestions.length, duration_seconds: duration,
+    });
+    if (error) toast({ title: "Lỗi lưu điểm", description: error.message, variant: "destructive" });
+    else toast({ title: "Đã ghi danh bảng vàng!", description: `${finalScore}/${quizQuestions.length} điểm` });
+    await checkAndAward(user.id, "trang_nguyen", finalScore, quizQuestions.length);
+  };
+
   const next = () => {
     if (current + 1 >= quizQuestions.length) {
-      setDone(true);
+      finish(score + (picked === q.answer ? 0 : 0));
     } else {
       setCurrent((c) => c + 1);
       setPicked(null);
@@ -29,6 +50,7 @@ const Quiz = () => {
 
   const reset = () => {
     setCurrent(0); setScore(0); setPicked(null); setDone(false);
+    startedAt.current = Date.now(); saved.current = false;
   };
 
   if (done) {
