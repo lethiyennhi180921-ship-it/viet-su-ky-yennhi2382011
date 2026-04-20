@@ -11,6 +11,7 @@ import Dynasties from "./pages/Dynasties.tsx";
 import Challenge from "./pages/Challenge.tsx";
 import Leaderboard from "./pages/Leaderboard.tsx";
 import Profile from "./pages/Profile.tsx";
+import ChatHistory from "./pages/ChatHistory.tsx";
 
 const queryClient = new QueryClient();
 
@@ -28,6 +29,7 @@ const App = () => (
             <Route path="/challenge" element={<Challenge />} />
             <Route path="/leaderboard" element={<Leaderboard />} />
             <Route path="/profile" element={<Profile />} />
+            <Route path="/chat" element={<ChatHistory />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
