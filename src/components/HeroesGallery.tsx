@@ -1,7 +1,16 @@
 import { useState } from "react";
 import { heroes, type Hero } from "@/data/heroes";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
-import { Quote } from "lucide-react";
+import { Quote, User, Globe2, Trophy, Heart, Award, Users } from "lucide-react";
+
+const SECTIONS: { key: keyof Hero; label: string; icon: any }[] = [
+  { key: "personal", label: "Thân thế & gia đình", icon: User },
+  { key: "context", label: "Bối cảnh thời đại", icon: Globe2 },
+  { key: "career", label: "Sự nghiệp & sự kiện chính", icon: Trophy },
+  { key: "character", label: "Tính cách & phẩm chất", icon: Heart },
+  { key: "legacy", label: "Tác động & di sản", icon: Award },
+  { key: "relations", label: "Mối quan hệ cùng thời", icon: Users },
+];
 
 const HeroesGallery = () => {
   const [selected, setSelected] = useState<Hero | null>(null);
@@ -16,7 +25,7 @@ const HeroesGallery = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-transparent via-gold to-transparent mx-auto mb-4" />
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Mười bậc anh hùng làm rạng danh non sông Việt Nam.
+            Mười bậc anh hùng làm rạng danh non sông Việt Nam — bấm vào để xem tiểu sử đầy đủ.
           </p>
         </div>
 
@@ -50,32 +59,51 @@ const HeroesGallery = () => {
       </div>
 
       <Dialog open={!!selected} onOpenChange={(o) => !o && setSelected(null)}>
-        <DialogContent className="max-w-3xl bg-card border-2 border-gold/60 max-h-[90vh] overflow-y-auto">
+        <DialogContent className="max-w-4xl bg-card border-2 border-gold/60 max-h-[90vh] overflow-y-auto">
           {selected && (
             <>
               <DialogHeader>
-                <DialogTitle className="font-display text-4xl text-primary">{selected.name}</DialogTitle>
-                <p className="text-gold font-display tracking-wider">{selected.era} · {selected.title}</p>
+                <DialogTitle className="font-display text-3xl md:text-4xl text-primary">{selected.name}</DialogTitle>
+                <p className="text-gold font-display tracking-wider">
+                  {selected.era} · {selected.title}
+                </p>
               </DialogHeader>
-              <div className="grid md:grid-cols-2 gap-6 mt-2">
-                <div className="rounded-lg overflow-hidden ornate-border">
-                  <img src={selected.image} alt={selected.name} className="w-full h-full object-cover" />
-                </div>
-                <div className="space-y-4 text-foreground/90">
-                  <div>
-                    <h4 className="font-display text-gold uppercase tracking-wider text-sm mb-1">Chiến công</h4>
-                    <p>{selected.achievement}</p>
-                  </div>
-                  <div>
-                    <h4 className="font-display text-gold uppercase tracking-wider text-sm mb-1">Câu chuyện</h4>
-                    <p>{selected.story}</p>
+
+              <div className="grid md:grid-cols-[260px_1fr] gap-6 mt-2">
+                <div className="space-y-4">
+                  <div className="rounded-lg overflow-hidden ornate-border">
+                    <img src={selected.image} alt={selected.name} className="w-full h-full object-cover" />
                   </div>
                   <div className="paper-scroll rounded-md p-4 relative">
                     <Quote className="absolute top-2 left-2 w-5 h-5 text-primary/40" />
-                    <p className="font-display italic text-ink text-lg pl-6 leading-relaxed">
+                    <p className="font-display italic text-ink text-sm pl-6 leading-relaxed">
                       {selected.quote}
                     </p>
                   </div>
+                </div>
+
+                <div className="space-y-5 text-foreground/90">
+                  <div>
+                    <h4 className="font-display text-gold uppercase tracking-wider text-sm mb-1 flex items-center gap-2">
+                      <Trophy className="w-4 h-4" /> Chiến công nổi bật
+                    </h4>
+                    <p className="leading-relaxed">{selected.achievement}</p>
+                  </div>
+
+                  <div className="border-t border-gold/20 pt-4">
+                    <p className="leading-relaxed italic text-foreground/80">{selected.story}</p>
+                  </div>
+
+                  {SECTIONS.map(({ key, label, icon: Icon }) => (
+                    <div key={key} className="border-t border-gold/20 pt-4">
+                      <h4 className="font-display text-gold uppercase tracking-wider text-sm mb-2 flex items-center gap-2">
+                        <Icon className="w-4 h-4" /> {label}
+                      </h4>
+                      <p className="leading-relaxed whitespace-pre-line text-sm md:text-base">
+                        {selected[key] as string}
+                      </p>
+                    </div>
+                  ))}
                 </div>
               </div>
             </>
