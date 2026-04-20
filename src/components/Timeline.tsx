@@ -75,6 +75,12 @@ const Timeline = () => {
                   <h4 className="font-display text-gold uppercase tracking-wider text-sm mb-1">Kết cục</h4>
                   <p>{selected.outcome}</p>
                 </div>
+                <div className="border-t border-gold/30 pt-4 mt-2 bg-gold/5 -mx-6 px-6 py-4 rounded">
+                  <h4 className="font-display text-gold uppercase tracking-wider text-sm mb-2 flex items-center gap-2">
+                    ★ Ý nghĩa lịch sử
+                  </h4>
+                  <p className="italic leading-relaxed">{selected.meaning}</p>
+                </div>
               </div>
             </>
           )}
