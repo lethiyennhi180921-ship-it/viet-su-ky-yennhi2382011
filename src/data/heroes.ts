@@ -1,3 +1,4 @@
+import vuaHung from "@/assets/heroes/vua-hung.jpg";
 import haiBaTrung from "@/assets/heroes/hai-ba-trung.jpg";
 import ngoQuyen from "@/assets/heroes/ngo-quyen.jpg";
 import trieuThiTrinh from "@/assets/heroes/trieu-thi-trinh.jpg";
@@ -28,6 +29,30 @@ export interface Hero {
 }
 
 export const heroes: Hero[] = [
+  {
+    id: "vua-hung",
+    name: "Vua Hùng",
+    era: "~ 2879 – 258 TCN",
+    title: "Quốc Tổ — Người dựng nước Văn Lang",
+    image: vuaHung,
+    achievement:
+      "Sáng lập nhà nước Văn Lang — nhà nước đầu tiên của dân tộc Việt, đặt nền móng cho nền văn minh sông Hồng và bản sắc Lạc Việt suốt hơn 2.600 năm.",
+    story:
+      "Theo truyền thuyết, Lạc Long Quân kết duyên với Âu Cơ sinh ra bọc trăm trứng, nở thành trăm người con — nguồn gốc của trăm họ Bách Việt. Người con cả lên ngôi, xưng là Hùng Vương, đóng đô ở Phong Châu (Phú Thọ ngày nay), đặt tên nước là Văn Lang, truyền nối 18 đời. Các Vua Hùng dạy dân cấy lúa, nuôi tằm, đúc trống đồng, lập nên nền văn minh rực rỡ.",
+    quote: "“Các Vua Hùng đã có công dựng nước, Bác cháu ta phải cùng nhau giữ lấy nước.” — Hồ Chí Minh",
+    personal:
+      "Theo Đại Việt Sử Ký Toàn Thư và truyền thuyết dân gian, Vua Hùng là dòng dõi Kinh Dương Vương — Lạc Long Quân — Âu Cơ. Lạc Long Quân thuộc giống Rồng ở miền biển, Âu Cơ thuộc giống Tiên ở miền núi. Bọc trăm trứng nở ra trăm con: 50 theo cha xuống biển, 50 theo mẹ lên núi. Người con trưởng được tôn lên làm vua, xưng Hùng Vương thứ nhất, đóng đô ở Phong Châu (Bạch Hạc, Phú Thọ). Triều đại Hùng Vương truyền nối 18 đời, kéo dài khoảng 2.622 năm (theo truyền thuyết: 2879 – 258 TCN).",
+    context:
+      "Thời kỳ các Vua Hùng tương ứng với nền văn hóa Phùng Nguyên — Đồng Đậu — Gò Mun — Đông Sơn (khoảng 2000 – 200 TCN) ở đồng bằng sông Hồng. Đây là giai đoạn người Việt cổ chuyển từ thời đồ đá sang thời đại đồ đồng rực rỡ, định cư nông nghiệp lúa nước, hình thành các bộ lạc Lạc Việt. Xã hội phân chia thành 15 bộ, đứng đầu là Lạc tướng — Lạc hầu, dưới là Bồ chính (trưởng làng) và dân Lạc dân. Đây là buổi bình minh của dân tộc, chưa có chữ viết nhưng đã có tổ chức nhà nước sơ khai.",
+    career:
+      "• Lập nước Văn Lang — nhà nước đầu tiên của người Việt, gồm 15 bộ trải dài từ nam Trung Quốc đến bắc Trung Bộ Việt Nam.\n• Đóng đô tại Phong Châu (Việt Trì, Phú Thọ).\n• Dạy dân cấy lúa nước, trồng dâu nuôi tằm, làm bánh chưng bánh dày (qua tích Lang Liêu — Hùng Vương thứ 6).\n• Đúc trống đồng Đông Sơn — biểu tượng quyền lực và văn minh.\n• Đánh giặc Ân (qua tích Thánh Gióng — Hùng Vương thứ 6).\n• Tổ chức xã hội theo chế độ phụ đạo cha truyền con nối, đặt nền móng tục thờ cúng tổ tiên.\n• Đến đời Hùng Vương thứ 18, vua nhường ngôi cho Thục Phán (An Dương Vương) — kết thúc thời đại Hùng Vương.",
+    character:
+      "Các Vua Hùng được dân gian khắc họa là những vị vua hiền minh, gần dân, trọng người tài đức (như tích chọn Lang Liêu nối ngôi vì biết làm bánh chưng bánh dày dâng cúng tổ tiên). Tinh thần khoan hòa, biết nhường ngôi cho người tài (Hùng Vương 18 nhường ngôi cho Thục Phán) thể hiện đức độ của bậc quốc tổ. Các vua sống gắn bó với dân, dạy dân làm ăn, không xa cách quyền uy — hình mẫu 'vua tôi đồng lòng' đầu tiên của dân tộc.",
+    legacy:
+      "CÔNG: Đặt nền móng cho quốc gia, dân tộc, văn hóa Việt Nam. Tạo dựng ý thức 'đồng bào' — cùng một bọc trứng sinh ra, là tư tưởng đoàn kết dân tộc sâu sắc nhất, không một dân tộc nào trên thế giới có được. Hình thành nền văn minh lúa nước, văn hóa trống đồng Đông Sơn rực rỡ.\nDI SẢN: Đền Hùng (Phú Thọ) là nơi thờ tự thiêng liêng nhất của dân tộc. Giỗ Tổ Hùng Vương (10/3 âm lịch) được công nhận là Quốc giỗ — ngày lễ chính thức của Việt Nam, được UNESCO công nhận 'Tín ngưỡng thờ cúng Hùng Vương' là Di sản văn hóa phi vật thể đại diện của nhân loại (2012).\nBÀI HỌC: 'Dù ai đi ngược về xuôi — Nhớ ngày Giỗ Tổ mồng mười tháng ba' — bài học về nguồn cội, đoàn kết, và lòng biết ơn tổ tiên.",
+    relations:
+      "• LẠC LONG QUÂN & ÂU CƠ (cha mẹ): Cha Rồng Mẹ Tiên — biểu tượng kết hợp hai dòng máu núi - biển tạo nên dân tộc Việt.\n• KINH DƯƠNG VƯƠNG (ông nội): Vị vua đầu tiên của họ Hồng Bàng.\n• 99 NGƯỜI EM: Cùng bọc trăm trứng — nguồn gốc 'đồng bào' của trăm họ Bách Việt.\n• LANG LIÊU: Hoàng tử thứ 18 đời Hùng Vương 6, sáng tạo bánh chưng bánh dày, được truyền ngôi.\n• THÁNH GIÓNG: Người anh hùng làng Phù Đổng đánh giặc Ân thời Hùng Vương 6.\n• SƠN TINH – THỦY TINH: Hai vị thần tranh cưới Mỵ Nương, con gái Hùng Vương 18.\n• THỤC PHÁN AN DƯƠNG VƯƠNG: Người được Hùng Vương 18 nhường ngôi, lập nên nước Âu Lạc.",
+  },
   {
     id: "hai-ba-trung",
     name: "Hai Bà Trưng",
