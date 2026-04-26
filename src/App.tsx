@@ -12,7 +12,7 @@ import Challenge from "./pages/Challenge.tsx";
 import Leaderboard from "./pages/Leaderboard.tsx";
 import Profile from "./pages/Profile.tsx";
 import ChatHistory from "./pages/ChatHistory.tsx";
-import AmbientAudio from "./components/AmbientAudio.tsx";
+
 
 const queryClient = new QueryClient();
 
@@ -23,7 +23,6 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <AuthProvider>
-          <AmbientAudio />
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/auth" element={<Auth />} />
