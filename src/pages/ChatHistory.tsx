@@ -80,7 +80,7 @@ const ChatHistory = () => {
         if (resp.status === 429) {
           toast.error("Quá nhiều yêu cầu, vui lòng thử lại sau ít phút.");
         } else if (resp.status === 402) {
-          toast.error("Đã hết tín dụng AI. Vui lòng nạp thêm trong Lovable Cloud.");
+          toast.error("Đã hết tín dụng AI. Vui lòng nạp thêm.");
         } else {
           toast.error("Có lỗi khi gọi Sử Gia AI. Vui lòng thử lại.");
         }
