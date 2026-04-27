@@ -58,7 +58,7 @@ Deno.serve(async (req) => {
       }
       if (response.status === 402) {
         return new Response(
-          JSON.stringify({ error: "Đã hết tín dụng AI. Vui lòng nạp thêm trong Lovable Cloud." }),
+          JSON.stringify({ error: "Đã hết tín dụng AI. Vui lòng nạp thêm." }),
           { status: 402, headers: { ...corsHeaders, "Content-Type": "application/json" } },
         );
       }
