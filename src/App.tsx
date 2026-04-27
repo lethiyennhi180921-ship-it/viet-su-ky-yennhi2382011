@@ -12,6 +12,7 @@ import Challenge from "./pages/Challenge.tsx";
 import Leaderboard from "./pages/Leaderboard.tsx";
 import Profile from "./pages/Profile.tsx";
 import ChatHistory from "./pages/ChatHistory.tsx";
+import EventVideos from "./pages/EventVideos.tsx";
 
 
 const queryClient = new QueryClient();
@@ -31,6 +32,7 @@ const App = () => (
             <Route path="/leaderboard" element={<Leaderboard />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/chat" element={<ChatHistory />} />
+            <Route path="/videos" element={<EventVideos />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
