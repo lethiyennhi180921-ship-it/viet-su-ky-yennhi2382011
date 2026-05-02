@@ -6,7 +6,7 @@ import { Quote, User, Globe2, Trophy, Heart, Award, Users } from "lucide-react";
 const SECTIONS: { key: keyof Hero; label: string; icon: any }[] = [
   { key: "personal", label: "Thân thế & gia đình", icon: User },
   { key: "context", label: "Bối cảnh thời đại", icon: Globe2 },
-  { key: "career", label: "Sự nghiệp & sự kiện chính", icon: Trophy },
+  { key: "career", label: "Cơ đồ và sự kiện lịch sử chính", icon: Trophy },
   { key: "character", label: "Tính cách & phẩm chất", icon: Heart },
   { key: "legacy", label: "Tác động & di sản", icon: Award },
   { key: "relations", label: "Mối quan hệ cùng thời", icon: Users },
@@ -25,7 +25,7 @@ const HeroesGallery = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-transparent via-gold to-transparent mx-auto mb-4" />
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Mười một bậc anh hùng làm rạng danh non sông Việt Nam — bấm vào để xem tiểu sử đầy đủ.
+            Mười bảy bậc anh hùng làm rạng danh non sông Việt Nam — bấm vào để xem tiểu sử đầy đủ.
           </p>
         </div>
 

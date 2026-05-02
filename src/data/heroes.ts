@@ -289,4 +289,142 @@ export const heroes: Hero[] = [
     relations:
       "• HỒ CHÍ MINH (lãnh tụ - người thầy): Bác Hồ trực tiếp giao nhiệm vụ thành lập đội quân đầu tiên, giao quân hàm Đại tướng năm 37 tuổi.\n• NGUYỄN THỊ QUANG THÁI (vợ đầu): nữ chiến sĩ cách mạng, em ruột Nguyễn Thị Minh Khai, hy sinh trong tù 1944.\n• ĐẶNG BÍCH HÀ (vợ sau): con gái GS. Đặng Thai Mai, người bạn đời tri kỷ.\n• ĐẶNG THAI MAI (cha vợ): học giả lớn, người ảnh hưởng đến tư tưởng học thuật của ông.\n• TRƯỜNG CHINH, PHẠM VĂN ĐỒNG, LÊ DUẨN: các đồng chí lãnh đạo Đảng - Nhà nước.\n• NGUYỄN CHÍ THANH (Đại tướng): bạn chiến đấu, từng có khác biệt quan điểm về chiến lược nhưng cùng phụng sự Tổ quốc.\n• HOÀNG VĂN THÁI, VĂN TIẾN DŨNG, LÊ TRỌNG TẤN, NGUYỄN HỮU AN: các tướng lĩnh thân cận, học trò xuất sắc.\n• HENRI NAVARRE, CHRISTIAN DE CASTRIES: các tướng Pháp tại Điện Biên Phủ — đối thủ trực tiếp.\n• WILLIAM WESTMORELAND, CREIGHTON ABRAMS: các tướng Mỹ trong chiến tranh Việt Nam — đối thủ tại miền Nam.\n• MCNAMARA: Bộ trưởng Quốc phòng Mỹ, sau này gặp lại Đại tướng năm 1995 và thừa nhận Mỹ đã sai lầm.",
   },
+  {
+    id: "ly-nam-de",
+    name: "Lý Nam Đế",
+    era: "503 – 548",
+    title: "Người sáng lập nước Vạn Xuân",
+    image: lyNamDe,
+    achievement: "Đánh đuổi quân Lương, lập nước Vạn Xuân (544) — nhà nước độc lập có quốc hiệu, niên hiệu, hoàng đế đầu tiên của người Việt.",
+    story:
+      "Năm 542, Lý Bí phất cờ khởi nghĩa tại Thái Bình, đánh tan quân Lương do Tiêu Tư cầm đầu. Năm 544, ông xưng Lý Nam Đế, đặt quốc hiệu Vạn Xuân, niên hiệu Thiên Đức — khẳng định ngang hàng với Trung Hoa.",
+    quote: "“Nước Nam là của người Nam, cớ sao để giặc Bắc cai trị?”",
+    personal:
+      "Tên thật Lý Bí (hay Lý Bôn), sinh năm 503 tại Thái Bình (có thuyết là Long Hưng — Phú Thọ). Dòng dõi người Việt gốc Hán đã Việt hóa hơn 7 đời, gia thế hào trưởng. Thuở nhỏ thông minh, văn võ song toàn, từng làm quan giám quân cho nhà Lương ở Đức Châu nhưng bất mãn với chính sách hà khắc nên từ quan về quê chiêu mộ hào kiệt.",
+    context:
+      "Thế kỷ VI, nhà Lương (Trung Quốc) đô hộ Giao Châu cực kỳ tàn bạo: Thứ sử Tiêu Tư tham lam, đánh thuế đến cả 'cây dâu cao một thước cũng phải nộp thuế'. Tầng lớp hào trưởng người Việt bị chèn ép, dân chúng oán than. Đây là thời cơ để Lý Bí — một hào trưởng có học, có thế lực — đứng lên dấy binh.",
+    career:
+      "• 542: phất cờ khởi nghĩa, liên kết hào kiệt khắp Giao Châu, đánh đuổi Tiêu Tư chạy về Quảng Châu.\n• 543: đánh tan quân Lâm Ấp xâm phạm phía Nam.\n• Mùa xuân 544: lên ngôi hoàng đế, xưng LÝ NAM ĐẾ, đặt quốc hiệu VẠN XUÂN, niên hiệu THIÊN ĐỨC, đóng đô tại cửa sông Tô Lịch (Hà Nội), dựng điện Vạn Thọ, lập triều đình hai ban văn võ.\n• 545: nhà Lương sai Trần Bá Tiên đem đại quân sang đàn áp, Lý Nam Đế thất thế rút về động Khuất Lão (Tam Nông, Phú Thọ), giao binh quyền cho Triệu Quang Phục.\n• 548: băng hà tại động Khuất Lão, hưởng dương 46 tuổi.",
+    character:
+      "Trí dũng song toàn, có chí lớn vượt thời đại. Là người Việt đầu tiên dám xưng ĐẾ (ngang hàng hoàng đế Trung Hoa) — một bước đột phá tư tưởng độc lập. Quốc hiệu 'Vạn Xuân' (mãi mãi mùa xuân) thể hiện khát vọng thái bình thịnh trị muôn đời. Khi thất thế, ông sáng suốt giao binh quyền cho Triệu Quang Phục — chọn người trẻ tài năng kế nghiệp.",
+    legacy:
+      "CÔNG: Đặt nền móng cho ý thức QUỐC GIA - DÂN TỘC độc lập với phương Bắc. Lần đầu tiên người Việt có quốc hiệu, niên hiệu, hoàng đế riêng — khái niệm 'nước' (Vạn Xuân) thay thế khái niệm 'châu' (Giao Châu) áp đặt từ phương Bắc.\nDI SẢN: Đền thờ Lý Nam Đế tại Thái Bình, Phú Thọ, Hà Nội. Tên ông được đặt cho nhiều đường phố lớn. Quốc hiệu 'Vạn Xuân' trở thành biểu tượng khát vọng độc lập trường tồn.",
+    relations:
+      "• TRIỆU QUANG PHỤC (tướng tâm phúc): được giao binh quyền, sau xưng Triệu Việt Vương, tiếp tục kháng chiến chống Lương.\n• PHẠM TU, TINH THIỀU, TRIỆU TÚC: ba khai quốc công thần — Phạm Tu là tướng võ, Tinh Thiều là tướng văn, Triệu Túc là cha Triệu Quang Phục.\n• LÝ THIÊN BẢO (anh): cùng dấy binh, sau lập nước Dã Năng tại Ai Lao.\n• TIÊU TƯ, TRẦN BÁ TIÊN: tướng nhà Lương — đối thủ trực tiếp.",
+  },
+  {
+    id: "le-dai-hanh",
+    name: "Lê Đại Hành",
+    era: "941 – 1005",
+    title: "Hoàng đế phá Tống bình Chiêm",
+    image: leDaiHanh,
+    achievement: "Đánh tan quân Tống xâm lược (981) tại Bạch Đằng - Chi Lăng, bình Chiêm Thành, mở rộng bờ cõi và củng cố nền độc lập non trẻ.",
+    story:
+      "Năm 981, Lê Hoàn lên ngôi vua trong tình thế nguy nan: vua Đinh nhỏ tuổi, quân Tống tràn xuống. Ông bày trận cọc trên sông Bạch Đằng, phục binh ở Chi Lăng, chém tướng Hầu Nhân Bảo, bắt sống Quách Quân Biện — đại phá quân Tống lần thứ nhất.",
+    quote: "“Đại thắng Bạch Đằng năm Tân Tỵ — mở đầu khí phách Đại Cồ Việt.”",
+    personal:
+      "Tên thật Lê Hoàn, sinh ngày 15/7/941 tại Ái Châu (Thanh Hóa) — có thuyết là Hà Nam. Mồ côi cha mẹ từ nhỏ, được viên quan họ Lê nuôi dưỡng nên đổi sang họ Lê. Từ nhỏ tướng mạo khôi ngô, sức mạnh hơn người, theo Đinh Bộ Lĩnh đánh dẹp loạn 12 sứ quân, lập nhiều công lớn nên được phong Thập đạo tướng quân — chỉ huy toàn bộ quân đội Đại Cồ Việt khi mới 30 tuổi.",
+    context:
+      "Năm 979, vua Đinh Tiên Hoàng và Thái tử Đinh Liễn bị Đỗ Thích sát hại. Đinh Toàn (6 tuổi) lên ngôi, mẹ là Dương Vân Nga buông rèm nhiếp chính. Nhà Tống nhân cơ hội sai Hầu Nhân Bảo - Tôn Toàn Hưng đem 4 vạn quân thủy bộ tràn xuống. Triều đình rối ren, Thái hậu Dương Vân Nga đã quyết định lịch sử: khoác long bào lên người Lê Hoàn, nhường ngôi để cứu nước.",
+    career:
+      "• 971: được Đinh Tiên Hoàng phong Thập đạo tướng quân, tổng chỉ huy quân đội.\n• 980: Thái hậu Dương Vân Nga trao long bào, lên ngôi hoàng đế, đổi niên hiệu Thiên Phúc, lập nhà TIỀN LÊ.\n• 981: TRẬN BẠCH ĐẰNG - CHI LĂNG — đại phá quân Tống, chém Hầu Nhân Bảo, bắt sống Quách Quân Biện. Vua Tống Triệu Quang Nghĩa phải xuống chiếu rút quân.\n• 982: thân chinh đánh Chiêm Thành, giết vua Bê Mi Thuế, hạ kinh đô Indrapura — mở rộng bờ cõi xuống Quảng Nam.\n• 987: tiếp sứ Tống Lý Giác, để Đỗ Pháp Thuận và Khuông Việt đối đáp, được Lý Giác làm thơ ca ngợi: 'Thiên ngoại hữu thiên ưng viễn chiếu' — vương quyền Đại Cồ Việt được thừa nhận.\n• Khuyến nông: là vua đầu tiên cày ruộng tịch điền (Lễ Tịch điền 987 tại Đọi Sơn) — khởi xướng truyền thống vua đích thân cày ruộng.\n• 1005: băng hà ở tuổi 65.",
+    character:
+      "Vũ dũng tuyệt luân, mưu lược hơn người, quyết đoán trong khoảnh khắc lịch sử. Việc chấp nhận long bào của Dương Vân Nga thể hiện bản lĩnh đặt vận nước trên danh nghĩa cá nhân — sẵn sàng gánh tiếng 'cướp ngôi' để cứu nước. Trận Bạch Đằng 981 cho thấy tài chiến lược kế thừa Ngô Quyền nhưng quy mô lớn hơn. Chính sách 'cày ruộng tịch điền' thể hiện tư tưởng coi trọng nông nghiệp - dân sinh.",
+    legacy:
+      "CÔNG: Bảo vệ thành công nền độc lập non trẻ trước cuộc xâm lược đầu tiên của một đế chế Trung Hoa thống nhất sau 1000 năm Bắc thuộc. Mở rộng bờ cõi xuống phương Nam, đặt tiền lệ Nam tiến. Khởi xướng Lễ Tịch điền — truyền thống văn hóa nông nghiệp kéo dài đến tận thời Nguyễn.\nDI SẢN: Đền thờ Lê Đại Hành tại Hoa Lư (Ninh Bình) — bên cạnh đền vua Đinh. Lễ hội Tịch điền Đọi Sơn (Hà Nam) được phục dựng từ 2009. Tên ông được đặt cho nhiều đường phố lớn.",
+    relations:
+      "• ĐINH TIÊN HOÀNG (vua tiền nhiệm): người tin dùng, phong Thập đạo tướng quân.\n• DƯƠNG VÂN NGA (Thái hậu, sau là Hoàng hậu): vợ vua Đinh, người trao long bào — sau trở thành Hoàng hậu Lê Hoàn — câu chuyện gây tranh cãi nhưng cũng đầy nhân văn.\n• ĐINH TOÀN: vua nhỏ bị truất, sau được Lê Hoàn cho làm Vệ Vương.\n• PHẠM CỰ LẠNG: tướng đã hô quân tôn Lê Hoàn lên ngôi.\n• KHUÔNG VIỆT, ĐỖ PHÁP THUẬN: hai vị thiền sư tham mưu chính trị - ngoại giao.\n• HẦU NHÂN BẢO, QUÁCH QUÂN BIỆN: tướng nhà Tống — đối thủ tại Bạch Đằng.\n• LÝ CÔNG UẨN: võ tướng trẻ dưới triều Tiền Lê, sau lập nhà Lý.",
+  },
+  {
+    id: "ly-cong-uan",
+    name: "Lý Công Uẩn",
+    era: "974 – 1028",
+    title: "Lý Thái Tổ — Người dời đô về Thăng Long",
+    image: lyCongUan,
+    achievement: "Sáng lập triều Lý (1009), dời đô từ Hoa Lư ra Thăng Long (1010) — quyết định mở ra kỷ nguyên văn minh Đại Việt rực rỡ kéo dài 8 thế kỷ.",
+    story:
+      "Mùa thu năm 1010, vua Lý Thái Tổ rời thuyền rồng, thấy rồng vàng bay lên từ đất Đại La, bèn đổi tên thành Thăng Long — 'Rồng bay lên'. Chiếu Dời Đô của ông là áng văn chính luận đầu tiên thể hiện tầm nhìn chiến lược vượt thời đại.",
+    quote: "“Trên kính mệnh trời, dưới theo ý dân, nếu thấy tiện thì dời đổi.” — Chiếu Dời Đô",
+    personal:
+      "Sinh năm 974 tại làng Cổ Pháp (Đình Bảng, Bắc Ninh). Tương truyền là con của bà Phạm Thị, được sư Lý Khánh Văn nhận nuôi tại chùa Cổ Pháp nên mang họ Lý. Từ nhỏ thông minh khác thường, được sư Vạn Hạnh dạy dỗ kinh sách - binh pháp - chính sự. Lớn lên làm Điện tiền chỉ huy sứ (chỉ huy cấm quân) dưới triều Tiền Lê, được vua Lê Long Đĩnh tin dùng.",
+    context:
+      "Cuối triều Tiền Lê, vua Lê Long Đĩnh (Lê Ngọa Triều) cai trị tàn bạo: róc mía trên đầu sư, ném người vào vạc dầu, đùa cợt với cái chết... lòng dân oán giận. Năm 1009, Long Đĩnh chết, con còn nhỏ. Sư Vạn Hạnh và Đào Cam Mộc đã vận động triều thần tôn Lý Công Uẩn — người đức độ, có uy tín — lên ngôi để cứu vãn cơ đồ.",
+    career:
+      "• 1009: được triều thần tôn lên ngôi, đặt niên hiệu Thuận Thiên, lập nhà LÝ — không đổ máu, chuyển giao quyền lực êm thấm hiếm có trong lịch sử.\n• Mùa thu 1010: ban CHIẾU DỜI ĐÔ — áng văn chính luận bất hủ, dời kinh đô từ Hoa Lư (núi non chật hẹp) ra Đại La (trung tâm đồng bằng), đổi tên THĂNG LONG.\n• Xây dựng Hoàng thành Thăng Long với 8 cửa, dựng cung điện, mở phố phường.\n• Khuyến khích Phật giáo: dựng nhiều chùa lớn, in kinh, phong sư Vạn Hạnh làm Quốc sư.\n• Cải cách hành chính: chia nước thành 24 lộ, đặt quan cai trị, lập sổ hộ tịch.\n• Ngoại giao khôn khéo: hòa hiếu với nhà Tống và Chiêm Thành, giữ vững biên cương.\n• 1028: băng hà tại điện Long An, thọ 55 tuổi, miếu hiệu THÁI TỔ.",
+    character:
+      "Đức độ, khoan hòa, sâu sắc — mẫu hình 'thánh quân' của Nho giáo kết hợp tinh thần từ bi của Phật giáo. Lên ngôi không đổ máu — hiếm có vị vua khai sáng triều đại nào trong lịch sử thế giới làm được. Tầm nhìn chiến lược thiên tài: thấy được Hoa Lư chỉ phù hợp thời chiến, còn xây dựng đất nước lâu dài phải có kinh đô ở trung tâm đồng bằng. Văn phong Chiếu Dời Đô vừa logic vừa cảm xúc — kết hợp lý lẽ địa lý, lịch sử, mệnh trời và lòng dân.",
+    legacy:
+      "CÔNG: Mở ra kỷ nguyên Đại Việt văn minh rực rỡ kéo dài hơn 800 năm với Thăng Long làm trung tâm. Triều Lý do ông sáng lập kéo dài 216 năm — triều đại dài nhất lịch sử Việt Nam, mở đầu thời kỳ Phật giáo cực thịnh, văn hóa - giáo dục - kiến trúc rực rỡ. Quyết định dời đô được sử gia đánh giá là 'quyết định chiến lược thiên tài bậc nhất trong lịch sử dân tộc'.\nDI SẢN: Hoàng thành Thăng Long được UNESCO công nhận Di sản Thế giới (2010 - đúng 1000 năm Thăng Long). Đền Đô (Bắc Ninh) thờ 8 vua nhà Lý. Tượng đài Lý Thái Tổ tại vườn hoa hồ Hoàn Kiếm. Đại lễ 1000 năm Thăng Long - Hà Nội (2010) là sự kiện văn hóa lớn nhất.",
+    relations:
+      "• SƯ VẠN HẠNH (thầy): Quốc sư, người dạy dỗ và vận động triều thần tôn ông lên ngôi.\n• ĐÀO CAM MỘC: đại thần đứng đầu nhóm tôn Lý Công Uẩn lên ngôi, sau được phong Nghĩa Tín hầu, gả công chúa.\n• LÊ LONG ĐĨNH: vua tiền nhiệm — bạo chúa cuối triều Tiền Lê.\n• LÝ PHẬT MÃ (con): kế vị, tức Lý Thái Tông — vị vua lỗi lạc của triều Lý.\n• LÝ THƯỜNG KIỆT (đời sau): danh tướng triều Lý — người tiếp nối sự nghiệp giữ nước.",
+  },
+  {
+    id: "tran-nhan-tong",
+    name: "Trần Nhân Tông",
+    era: "1258 – 1308",
+    title: "Vua - Phật Hoàng - Tổ Trúc Lâm",
+    image: tranNhanTong,
+    achievement: "Hai lần lãnh đạo dân tộc đại phá quân Nguyên - Mông (1285, 1288), sau đó từ bỏ ngai vàng đi tu, sáng lập Thiền phái Trúc Lâm Yên Tử thuần Việt.",
+    story:
+      "Vua Trần Nhân Tông là biểu tượng độc nhất vô nhị trong lịch sử thế giới: vừa là vị vua đánh bại đế quốc Mông Cổ hùng mạnh nhất thế giới, vừa là Phật Hoàng sáng lập một thiền phái lớn. Sau chiến thắng Bạch Đằng 1288, ông nhường ngôi cho con, lên núi Yên Tử tu hành.",
+    quote: "“Cư trần lạc đạo thả tùy duyên — Cơ tắc xan hề khốn tắc miên.” (Sống đời vui đạo cứ tùy duyên — Đói thì ăn, mệt thì ngủ.)",
+    personal:
+      "Sinh ngày 11/11/1258 tại Thăng Long, tên thật Trần Khâm. Là con trưởng vua Trần Thánh Tông và Nguyên Thánh Hoàng thái hậu (Nguyên Thiên Cảm). Sử chép ông sinh ra 'thân hình có sắc vàng', từ nhỏ đã thông tuệ khác thường, học giỏi cả Nho - Phật - Lão. Năm 16 tuổi được lập làm Hoàng Thái tử. Vợ là Khâm Từ Bảo Thánh Hoàng hậu.",
+    context:
+      "Thế kỷ XIII, đế quốc Mông - Nguyên do Hốt Tất Liệt cầm đầu là siêu cường lớn nhất lịch sử nhân loại — chinh phục từ Á sang Âu, đánh bại nhà Tống, hủy diệt đế quốc Hồi giáo Abbasid. Đại Việt trở thành mục tiêu chinh phục trên đường Nam tiến của Mông Cổ. Trần Nhân Tông lên ngôi 1278 — đúng vào thời điểm nguy nan nhất của dân tộc.",
+    career:
+      "• 1278: lên ngôi vua khi 20 tuổi, niên hiệu Thiệu Bảo.\n• 1282: triệu tập HỘI NGHỊ BÌNH THAN — bàn kế đánh giặc với các vương hầu tướng lĩnh.\n• 1284: triệu tập HỘI NGHỊ DIÊN HỒNG — hỏi ý các bô lão cả nước, được đáp 'QUYẾT ĐÁNH!' vang dội — biểu tượng dân chủ sớm nhất Á Đông.\n• 1285: đại phá 50 vạn quân Nguyên do Thoát Hoan cầm đầu — chiến thắng Hàm Tử, Chương Dương, Tây Kết.\n• 1288: lần thứ ba phá Nguyên — TRẬN BẠCH ĐẰNG bất hủ do Trần Hưng Đạo chỉ huy, bắt sống Ô Mã Nhi.\n• 1293: nhường ngôi cho con là Trần Anh Tông, làm Thái thượng hoàng.\n• 1299: chính thức xuất gia trên núi Yên Tử (Quảng Ninh), sáng lập THIỀN PHÁI TRÚC LÂM — tông phái Phật giáo thuần Việt đầu tiên.\n• Đi chân đất khắp nơi giảng đạo, dạy dân Thập thiện, lập tăng đoàn.\n• Sáng tác nhiều tác phẩm Phật học - văn học chữ Nôm: Cư Trần Lạc Đạo Phú, Đắc Thú Lâm Tuyền Thành Đạo Ca.\n• 1301: sang Chiêm Thành ngoại giao, hứa gả công chúa Huyền Trân — đổi lấy hai châu Ô, Lý (1306) mở rộng bờ cõi đến Thừa Thiên - Quảng Trị.\n• 3/11/1308: viên tịch tại am Ngọa Vân (Yên Tử), thọ 51 tuổi.",
+    character:
+      "Bậc kỳ tài hiếm có: vừa là minh quân, vừa là thi nhân, vừa là thiền sư đắc đạo. Quyết đoán trong chiến tranh nhưng từ bi trong hòa bình. Khi quân Nguyên thua, ông tha hết tù binh cho về, thậm chí cấp lương — thể hiện tinh thần Phật giáo. Sống giản dị: làm vua mà ăn chay, làm Thái thượng hoàng mà tự tay cuốc đất trồng rau. Khi xuất gia thì bỏ hết uy quyền, đi chân đất khắp xóm làng giảng đạo. Tư tưởng 'CƯ TRẦN LẠC ĐẠO' (sống giữa đời thường mà vui với đạo) là triết lý nhập thế độc đáo của Phật giáo Việt Nam.",
+    legacy:
+      "CÔNG: Đánh bại đế quốc Mông - Nguyên — chiến công vang dội thế giới (cùng với Nhật Bản, Đại Việt là một trong số rất ít quốc gia đẩy lùi được Mông Cổ). Sáng lập Thiền phái Trúc Lâm — dòng Phật giáo thuần Việt, mang bản sắc dân tộc, kết hợp 'đạo' và 'đời'. Mở rộng bờ cõi qua hôn nhân ngoại giao Huyền Trân.\nDI SẢN: Quần thể di tích Yên Tử (Quảng Ninh) - nơi ông tu hành và viên tịch - được UNESCO công nhận Di sản Thế giới (2025). Tượng Phật Hoàng Trần Nhân Tông cao 12.6m bằng đồng nguyên khối lớn nhất Việt Nam tại Yên Tử. Lễ hội Yên Tử mùa xuân hàng năm thu hút hàng triệu lượt khách. Ông được tôn là PHẬT HOÀNG — Sơ Tổ Trúc Lâm.",
+    relations:
+      "• TRẦN THÁNH TÔNG (cha): Thái thượng hoàng, người đồng cai trị giai đoạn đầu.\n• TRẦN HƯNG ĐẠO (chú): Quốc công Tiết chế, Tổng tư lệnh quân đội — người trực tiếp đánh bại Mông - Nguyên.\n• TRẦN QUANG KHẢI: Thượng tướng Thái sư, em họ — văn võ song toàn.\n• KHÂM TỪ BẢO THÁNH (vợ): Hoàng hậu, mẹ vua Trần Anh Tông.\n• HUYỀN TRÂN CÔNG CHÚA (con gái): được gả cho vua Chiêm Chế Mân, đổi hai châu Ô, Lý.\n• TRẦN ANH TÔNG (con trai): kế vị, vị vua hiền minh tiếp nối.\n• PHÁP LOA, HUYỀN QUANG: Nhị Tổ và Tam Tổ Trúc Lâm — học trò xuất sắc.\n• HỐT TẤT LIỆT: Đại hãn Mông Cổ - Hoàng đế Nguyên — kẻ thù chiến lược.\n• THOÁT HOAN, Ô MÃ NHI, TOA ĐÔ: các tướng Nguyên — đối thủ trực tiếp trên chiến trường.",
+  },
+  {
+    id: "le-loi",
+    name: "Lê Lợi",
+    era: "1385 – 1433",
+    title: "Lê Thái Tổ — Anh hùng Lam Sơn",
+    image: leLoi,
+    achievement: "Lãnh đạo Khởi nghĩa Lam Sơn (1418-1427), đánh đuổi giặc Minh sau 20 năm đô hộ, sáng lập triều HẬU LÊ — triều đại dài và rực rỡ bậc nhất sử Việt.",
+    story:
+      "Năm 1418, Lê Lợi dấy binh ở Lam Sơn (Thanh Hóa) với chỉ vài trăm nghĩa sĩ. Trải qua 10 năm gian khổ — có lúc phải nếm 'nằm gai nếm mật, mưa rừng cơm vắt' — ông đã đánh tan 20 vạn quân Minh, giải phóng đất nước. Truyền thuyết Hồ Gươm với rùa thần đòi gươm báu là biểu tượng bất hủ của ông.",
+    quote: "“Đem đại nghĩa để thắng hung tàn — Lấy chí nhân để thay cường bạo.” — Bình Ngô Đại Cáo",
+    personal:
+      "Sinh ngày 10/9/1385 tại làng Lam Sơn (Thọ Xuân, Thanh Hóa). Cha là Lê Khoáng, mẹ là Trịnh Thị Ngọc Thương — gia đình hào trưởng có thế lực. Từ nhỏ tướng mạo khôi ngô, vai hùm hổ, tiếng vang như chuông, dáng vẻ uy nghi. Lớn lên kế thừa cơ nghiệp cha, làm phụ đạo (tù trưởng) Lam Sơn, có hàng nghìn dân phụ thuộc. Vợ chính là bà Phạm Thị Ngọc Trần — đã hy sinh mình cho thần sông để cầu chiến thắng.",
+    context:
+      "Năm 1407, nhà Hồ thất bại, giặc Minh chiếm Đại Việt, đặt làm quận Giao Chỉ — tái lập ách Bắc thuộc lần thứ tư. Quân Minh thi hành chính sách đồng hóa cực kỳ tàn bạo: đốt sách, phá chùa, bắt thợ giỏi, vơ vét vàng bạc, ép dân theo phong tục Minh. Các cuộc khởi nghĩa của Trần Ngỗi, Trần Quý Khoáng đều thất bại. Đất nước rên xiết dưới gót giặc — đây là bối cảnh để Lê Lợi đứng lên.",
+    career:
+      "• 1416: HỘI THỀ LŨNG NHAI — cùng 18 hào kiệt thề kết nghĩa anh em, quyết khôi phục giang sơn.\n• 7/2/1418: dựng cờ khởi nghĩa tại Lam Sơn, xưng BÌNH ĐỊNH VƯƠNG.\n• 1418-1423: giai đoạn cực kỳ gian khổ ở núi rừng Thanh Hóa - 'nằm gai nếm mật', ba lần phải rút lên núi Chí Linh, có lúc tuyệt lương phải giết ngựa ăn thịt.\n• 1424: theo kế Nguyễn Chích, chuyển hướng vào Nghệ An — bước ngoặt chiến lược.\n• 1425-1426: giải phóng từ Thanh - Nghệ - Tĩnh đến Tân Bình - Thuận Hóa.\n• 1426: TRẬN TỐT ĐỘNG - CHÚC ĐỘNG — tiêu diệt 5 vạn quân Vương Thông.\n• 10/1427: TRẬN CHI LĂNG - XƯƠNG GIANG — chém Liễu Thăng, tiêu diệt 10 vạn viện binh.\n• 12/1427: Vương Thông phải xin hòa, dẫn tàn quân về nước — kết thúc 20 năm Minh thuộc.\n• 1428: lên ngôi hoàng đế, đổi quốc hiệu ĐẠI VIỆT, niên hiệu Thuận Thiên, đóng đô Đông Kinh (Thăng Long), lập nhà HẬU LÊ. Ban Bình Ngô Đại Cáo (Nguyễn Trãi soạn).\n• Cải cách: chia nước 5 đạo, ban Quân Điền, mở khoa thi, lập Quốc Tử Giám.\n• 1433: băng hà ở tuổi 49, miếu hiệu THÁI TỔ.",
+    character:
+      "Bản lĩnh kiên cường, mưu lược sâu sắc, biết dùng người. Trong 10 năm gian khổ vẫn giữ vững chí khí, không nản lòng dù nhiều lần thất thế. Biết trọng dụng nhân tài: chiêu mộ Nguyễn Trãi, Trần Nguyên Hãn, Lê Lai, Nguyễn Chích — tạo nên bộ tham mưu xuất sắc. Tinh thần nhân nghĩa: sau chiến thắng vẫn cấp 500 thuyền, hàng nghìn ngựa cho quân Minh về nước an toàn — 'lấy chí nhân thay cường bạo'. Hạn chế: cuối đời nghi kỵ công thần, để xảy ra vụ án Trần Nguyên Hãn, Phạm Văn Xảo.",
+    legacy:
+      "CÔNG: Giải phóng dân tộc khỏi 20 năm Minh thuộc — giành lại độc lập sau khi nhà Hồ làm mất nước. Sáng lập triều HẬU LÊ kéo dài 360 năm (1428-1788) — triều đại dài nhất lịch sử Việt Nam, mở ra thời đại Lê sơ rực rỡ với những vị vua như Lê Thánh Tông. Bình Ngô Đại Cáo do Nguyễn Trãi soạn dưới triều ông được coi là 'bản tuyên ngôn độc lập thứ hai' của dân tộc.\nDI SẢN: Khu di tích Lam Kinh (Thanh Hóa) — nơi an táng và thờ tự — Di tích Quốc gia đặc biệt. Tượng đài Lê Lợi tại Thanh Hóa, Hà Nội. Truyền thuyết Hồ Gươm - Rùa Thần - Gươm Thuận Thiên là biểu tượng văn hóa Hà Nội, được tôn vinh qua Tháp Rùa, Đền Ngọc Sơn.\nBÀI HỌC: Sức mạnh của ý chí kiên cường, chiến lược 'lấy ít địch nhiều, lấy yếu chống mạnh', tinh thần nhân nghĩa trong chiến tranh và hòa bình.",
+    relations:
+      "• NGUYỄN TRÃI (Quân sư): linh hồn cuộc khởi nghĩa, soạn Bình Ngô Sách và Bình Ngô Đại Cáo.\n• LÊ LAI: tướng trung nghĩa, đổi áo bào liều mình cứu chúa tại Chí Linh — 'Lê Lai cứu chúa' thành điển tích.\n• TRẦN NGUYÊN HÃN: tướng tài, em họ Nguyễn Trãi, sau bị bức tử oan.\n• LÊ SÁT, LÊ NGÂN, NGUYỄN XÍ, ĐINH LIỆT, LÊ THẠCH: các khai quốc công thần.\n• NGUYỄN CHÍCH: tướng đề ra kế chuyển vào Nghệ An — bước ngoặt chiến lược.\n• PHẠM THỊ NGỌC TRẦN (vợ): đã hy sinh cho thần sông Lam để cầu chiến thắng — sau được phong Hoàng thái hậu.\n• LÊ NGUYÊN LONG (con): tức Lê Thái Tông — kế vị.\n• LÊ TƯ TỀ: con trưởng, bị phế truất do tâm thần bất ổn.\n• VƯƠNG THÔNG, LIỄU THĂNG, MỘC THẠNH: các tướng Minh — đối thủ trực tiếp.",
+  },
+  {
+    id: "nguyen-trai",
+    name: "Nguyễn Trãi",
+    era: "1380 – 1442",
+    title: "Ức Trai — Anh hùng dân tộc, Danh nhân văn hóa thế giới",
+    image: nguyenTrai,
+    achievement: "Quân sư số một của Lê Lợi, soạn BÌNH NGÔ ĐẠI CÁO — 'thiên cổ hùng văn'. Là nhà chính trị, quân sự, ngoại giao, tư tưởng và văn học vĩ đại bậc nhất sử Việt.",
+    story:
+      "Sau 10 năm phò tá Lê Lợi đánh đuổi giặc Minh, Nguyễn Trãi soạn Bình Ngô Đại Cáo — bản tuyên ngôn độc lập thứ hai của dân tộc. Cuối đời ông bị vu oan trong vụ án LỆ CHI VIÊN, bị tru di tam tộc — bi kịch lớn nhất sử Việt. 22 năm sau (1464), vua Lê Thánh Tông minh oan, ca ngợi 'Ức Trai tâm thượng quang khuê tảo' (Lòng Ức Trai sáng tựa sao Khuê).",
+    quote: "“Việc nhân nghĩa cốt ở yên dân — Quân điếu phạt trước lo trừ bạo.” — Bình Ngô Đại Cáo",
+    personal:
+      "Sinh năm 1380 tại làng Chi Ngại (Chí Linh, Hải Dương), sau dời về làng Nhị Khê (Thường Tín, Hà Nội). Cha là Nguyễn Phi Khanh — tiến sĩ triều Trần, sau làm quan triều Hồ. Mẹ là Trần Thị Thái — con gái quan Tư đồ Trần Nguyên Đán (cháu bốn đời của Trần Quang Khải). Mồ côi mẹ năm 5 tuổi, ông được ông ngoại nuôi dạy. Đỗ THÁI HỌC SINH (Tiến sĩ) năm 1400 dưới triều Hồ, làm quan Ngự sử đài Chính chưởng. Vợ có nhiều người, nổi tiếng nhất là bà NGUYỄN THỊ LỘ — Lễ nghi học sĩ tài hoa.",
+    context:
+      "Sinh ra trong thời loạn: cuối Trần - đầu Hồ - Minh thuộc. Năm 1407, giặc Minh bắt cha là Nguyễn Phi Khanh giải về Trung Quốc. Đến ải Nam Quan, cha khuyên ông quay về tìm đường rửa hận nước, trả thù nhà — lời dặn này đã định hình toàn bộ cuộc đời ông. Bị giặc Minh giam lỏng tại Đông Quan (Hà Nội) hơn 10 năm, ông âm thầm nghiên cứu binh pháp, viết BÌNH NGÔ SÁCH (kế sách đánh giặc Ngô).",
+    career:
+      "• 1400: đỗ Thái học sinh triều Hồ, làm Ngự sử đài Chính chưởng.\n• 1407-1417: bị giam lỏng ở Đông Quan, soạn BÌNH NGÔ SÁCH.\n• 1417-1418: trốn vào Lam Sơn, dâng Bình Ngô Sách cho Lê Lợi — được tin dùng làm QUÂN SƯ TỐI CAO.\n• 1418-1427: cùng Lê Lợi vạch chiến lược 'TÂM CÔNG' (đánh vào lòng người) — viết hàng trăm thư dụ hàng tướng giặc.\n• Soạn các văn kiện ngoại giao gửi nhà Minh — sắc bén như gươm.\n• 12/1427: thay mặt Lê Lợi cùng Vương Thông HỘI THỀ ĐÔNG QUAN — kết thúc chiến tranh nhân đạo, tha 10 vạn quân Minh về nước.\n• 1428: soạn BÌNH NGÔ ĐẠI CÁO — 'thiên cổ hùng văn', bản tuyên ngôn độc lập thứ hai.\n• 1428-1437: làm quan triều Lê — Hành khiển, Nhập nội Đại hành khiển, Quan phục hầu — nhưng bị bọn quyền thần (Lê Sát, Lê Ngân) chèn ép.\n• 1437: chán cảnh quan trường, lui về ẩn cư tại Côn Sơn (Hải Dương), sáng tác Quốc Âm Thi Tập.\n• 1442: vua Lê Thái Tông ghé Côn Sơn rồi đột tử tại LỆ CHI VIÊN — Nguyễn Trãi và Nguyễn Thị Lộ bị vu giết vua, tru di tam tộc.\n• 1464: vua Lê Thánh Tông MINH OAN, truy phong Tế Văn hầu, sưu tầm thơ văn ông.\n• 1980: UNESCO vinh danh DANH NHÂN VĂN HÓA THẾ GIỚI nhân kỷ niệm 600 năm sinh.",
+    character:
+      "Trí tuệ siêu việt, nhân cách thanh cao, lòng yêu nước thương dân sâu sắc. Tư tưởng 'NHÂN NGHĨA' của ông kết hợp Nho giáo và truyền thống Việt: 'Việc nhân nghĩa cốt ở YÊN DÂN' — đặt dân lên hàng đầu, vượt cả Khổng - Mạnh. Chiến lược 'TÂM CÔNG' (đánh vào lòng người) là tư tưởng quân sự nhân đạo đi trước thời đại. Sống thanh bạch: từ chối phú quý, lui về ẩn dật ở Côn Sơn 'Côn Sơn suối chảy rì rầm — Ta nghe như tiếng đàn cầm bên tai'. Bi kịch cuối đời thể hiện sự bạc bẽo của chính trị và sự cô đơn của bậc đại tài.",
+    legacy:
+      "CÔNG: Linh hồn của Khởi nghĩa Lam Sơn — không có Nguyễn Trãi, chiến thắng có thể đã không trọn vẹn. Tư tưởng 'NHÂN NGHĨA - YÊN DÂN' đặt nền móng cho triết lý chính trị nhân văn của Việt Nam. Bình Ngô Đại Cáo là 'thiên cổ hùng văn' - áng văn chính luận vĩ đại nhất sử Việt, sánh ngang Tuyên ngôn Độc lập 1945.\nDI SẢN VĂN HỌC: Bình Ngô Đại Cáo, Quân Trung Từ Mệnh Tập, Ức Trai Thi Tập (chữ Hán), QUỐC ÂM THI TẬP (254 bài thơ Nôm — đặt nền móng văn học chữ Nôm), Dư Địa Chí (sách địa lý đầu tiên), Lam Sơn Thực Lục.\nDI SẢN VẬT THỂ: Khu di tích Côn Sơn - Kiếp Bạc (Hải Dương) — Di tích Quốc gia đặc biệt. Đền thờ Nguyễn Trãi tại Nhị Khê (Hà Nội), Côn Sơn. Tên ông được đặt cho hàng trăm đường phố, trường học khắp Việt Nam.\nDANH HIỆU: ANH HÙNG DÂN TỘC, DANH NHÂN VĂN HÓA THẾ GIỚI (UNESCO 1980).",
+    relations:
+      "• NGUYỄN PHI KHANH (cha): tiến sĩ, người dạy dỗ và để lại lời dặn 'báo thù nước, rửa nhục nhà' tại ải Nam Quan.\n• TRẦN NGUYÊN ĐÁN (ông ngoại): Tư đồ triều Trần, người nuôi dạy ông từ nhỏ, truyền cho tinh thần yêu nước.\n• NGUYỄN THỊ LỘ (vợ thứ): Lễ nghi học sĩ tài sắc — cùng chịu án oan Lệ Chi Viên.\n• LÊ LỢI: minh chủ, người tin dùng tuyệt đối trong 10 năm kháng chiến.\n• TRẦN NGUYÊN HÃN: em họ ruột (cùng cháu Trần Nguyên Đán), tướng tài Lam Sơn, cùng bị bức tử oan.\n• LÊ THÁI TÔNG: vị vua trẻ ghé Côn Sơn rồi đột tử — vô tình gây ra án oan.\n• THỊ ANH (Nguyễn Thị Anh - Tuyên Từ Hoàng Thái hậu): người bị nghi là chủ mưu vụ án Lệ Chi Viên.\n• LÊ THÁNH TÔNG: vị vua minh oan và ca ngợi 'Ức Trai tâm thượng quang khuê tảo'.\n• VƯƠNG THÔNG, LIỄU THĂNG, MỘC THẠNH: các tướng Minh — đối tượng của các bức thư 'tâm công'.",
+  },
 ];
