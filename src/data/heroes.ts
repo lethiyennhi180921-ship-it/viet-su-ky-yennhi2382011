@@ -9,6 +9,12 @@ import nguyenHue from "@/assets/heroes/nguyen-hue.jpg";
 import leThanhTong from "@/assets/heroes/le-thanh-tong.jpg";
 import hoChiMinh from "@/assets/heroes/ho-chi-minh.jpg";
 import voNguyenGiap from "@/assets/heroes/vo-nguyen-giap.jpg";
+import lyNamDe from "@/assets/heroes/ly-nam-de.jpg";
+import leDaiHanh from "@/assets/heroes/le-dai-hanh.jpg";
+import lyCongUan from "@/assets/heroes/ly-cong-uan.jpg";
+import tranNhanTong from "@/assets/heroes/tran-nhan-tong.jpg";
+import leLoi from "@/assets/heroes/le-loi.jpg";
+import nguyenTrai from "@/assets/heroes/nguyen-trai.jpg";
 
 export interface Hero {
   id: string;
