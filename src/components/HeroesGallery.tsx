@@ -25,7 +25,7 @@ const HeroesGallery = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-transparent via-gold to-transparent mx-auto mb-4" />
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Mười một bậc anh hùng làm rạng danh non sông Việt Nam — bấm vào để xem tiểu sử đầy đủ.
+            Mười bảy bậc anh hùng làm rạng danh non sông Việt Nam — bấm vào để xem tiểu sử đầy đủ.
           </p>
         </div>
 
