@@ -52,7 +52,7 @@ const Timeline = () => {
       </div>
 
       <Dialog open={!!selected} onOpenChange={(o) => !o && setSelected(null)}>
-        <DialogContent className="max-w-2xl bg-card border-2 border-gold/60">
+        <DialogContent className="max-w-2xl bg-card border-2 border-gold/60 max-h-[90vh] overflow-y-auto">
           {selected && (
             <>
               <DialogHeader>
