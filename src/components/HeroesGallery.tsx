@@ -6,7 +6,7 @@ import { Quote, User, Globe2, Trophy, Heart, Award, Users } from "lucide-react";
 const SECTIONS: { key: keyof Hero; label: string; icon: any }[] = [
   { key: "personal", label: "Thân thế & gia đình", icon: User },
   { key: "context", label: "Bối cảnh thời đại", icon: Globe2 },
-  { key: "career", label: "Sự nghiệp & sự kiện chính", icon: Trophy },
+  { key: "career", label: "Cơ đồ và sự kiện lịch sử chính", icon: Trophy },
   { key: "character", label: "Tính cách & phẩm chất", icon: Heart },
   { key: "legacy", label: "Tác động & di sản", icon: Award },
   { key: "relations", label: "Mối quan hệ cùng thời", icon: Users },
