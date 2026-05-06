@@ -2,13 +2,20 @@ import { useState } from "react";
 import { timelineEvents, type TimelineEvent } from "@/data/timeline";
 import { Sword } from "lucide-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
+import timelineBg from "@/assets/timeline-bg.jpg";
 
 const Timeline = () => {
   const [selected, setSelected] = useState<TimelineEvent | null>(null);
 
   return (
-    <section id="timeline" className="py-24 px-4 relative">
-      <div className="container mx-auto">
+    <section
+      id="timeline"
+      className="py-24 px-4 relative bg-cover bg-center bg-no-repeat"
+      style={{
+        backgroundImage: `linear-gradient(180deg, hsl(0 60% 12% / 0.85), hsl(0 55% 16% / 0.9)), url(${timelineBg})`,
+      }}
+    >
+      <div className="container mx-auto relative z-10">
         <div className="text-center mb-16 animate-fade-in-up">
           <p className="text-gold tracking-[0.3em] uppercase text-sm mb-3 font-display">Trục thời gian</p>
           <h2 className="font-display text-5xl md:text-6xl font-bold text-primary mb-4">
