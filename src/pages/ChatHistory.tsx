@@ -8,6 +8,7 @@ import { toast } from "sonner";
 import { supabase } from "@/integrations/supabase/client";
 import { useAuth } from "@/contexts/AuthContext";
 import { Link } from "react-router-dom";
+import chatRobot from "@/assets/chat-robot.jpg";
 
 type Msg = { role: "user" | "assistant"; content: string };
 
@@ -202,10 +203,19 @@ const ChatHistory = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background relative overflow-hidden">
       <SiteHeader />
 
-      <main className="container mx-auto px-4 pt-28 pb-12 max-w-4xl">
+      {/* Floating mascot robot */}
+      <img
+        src={chatRobot}
+        alt="Trợ lý Sử Gia AI"
+        aria-hidden="true"
+        className="hidden lg:block pointer-events-none select-none absolute top-32 right-6 w-56 xl:w-72 opacity-80 drop-shadow-[0_10px_30px_rgba(184,134,11,0.35)] animate-float mix-blend-luminosity hover:mix-blend-normal transition-all"
+        style={{ maskImage: "radial-gradient(circle, black 60%, transparent 100%)", WebkitMaskImage: "radial-gradient(circle, black 60%, transparent 100%)" }}
+      />
+
+      <main className="container mx-auto px-4 pt-28 pb-12 max-w-4xl relative z-10">
         <div className="text-center mb-8 animate-fade-in-up">
           <p className="text-gold tracking-[0.3em] uppercase text-sm mb-3 font-display">
             Sử Gia AI
