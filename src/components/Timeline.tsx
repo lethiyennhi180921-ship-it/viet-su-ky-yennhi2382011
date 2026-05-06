@@ -12,7 +12,7 @@ const Timeline = () => {
       id="timeline"
       className="py-24 px-4 relative bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: `linear-gradient(180deg, hsl(0 60% 12% / 0.85), hsl(0 55% 16% / 0.9)), url(${timelineBg})`,
+        backgroundImage: `linear-gradient(180deg, hsl(0 60% 14% / 0.55), hsl(0 55% 18% / 0.6)), url(${timelineBg})`,
       }}
     >
       <div className="container mx-auto relative z-10">
