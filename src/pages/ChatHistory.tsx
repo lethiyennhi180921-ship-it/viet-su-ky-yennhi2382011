@@ -44,6 +44,10 @@ const ChatHistory = () => {
   const send = async (text: string) => {
     const trimmed = text.trim();
     if (!trimmed || isLoading) return;
+    if (!user) {
+      toast.error("Vui lòng đăng nhập để trò chuyện với Sử Gia AI.");
+      return;
+    }
 
     const userMsg: Msg = { role: "user", content: trimmed };
     const history = [...messages, userMsg];
@@ -69,19 +73,28 @@ const ChatHistory = () => {
     };
 
     try {
+      const { data: sessionData } = await supabase.auth.getSession();
+      const accessToken = sessionData.session?.access_token;
+      if (!accessToken) {
+        toast.error("Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại.");
+        setIsLoading(false);
+        return;
+      }
       const resp = await fetch(CHAT_URL, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer ${import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY}`,
+          Authorization: `Bearer ${accessToken}`,
         },
         body: JSON.stringify({
-          messages: history.map((m) => ({ role: m.role, content: m.content })),
+          messages: history.slice(-20).map((m) => ({ role: m.role, content: String(m.content).slice(0, 2000) })),
         }),
       });
 
       if (!resp.ok || !resp.body) {
-        if (resp.status === 429) {
+        if (resp.status === 401) {
+          toast.error("Bạn cần đăng nhập để tiếp tục.");
+        } else if (resp.status === 429) {
           toast.error("Quá nhiều yêu cầu, vui lòng thử lại sau ít phút.");
         } else if (resp.status === 402) {
           toast.error("Đã hết tín dụng AI. Vui lòng nạp thêm.");
