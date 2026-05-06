@@ -3,8 +3,6 @@ import Timeline from "@/components/Timeline";
 import HeroesGallery from "@/components/HeroesGallery";
 import Poetry from "@/components/Poetry";
 import SiteHeader from "@/components/SiteHeader";
-import { Link } from "react-router-dom";
-import { Swords, Trophy, Scroll } from "lucide-react";
 
 const Index = () => {
   return (
