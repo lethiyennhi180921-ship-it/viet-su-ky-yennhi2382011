@@ -21,7 +21,7 @@ const SiteHeader = () => {
     <header className="fixed top-0 inset-x-0 z-50 glass-imperial">
       <div className="container mx-auto flex items-center justify-between py-3 px-4 gap-4">
         <Link to="/" className="font-display text-xl md:text-2xl font-bold text-gradient-gold whitespace-nowrap">
-          Sử Việt Ký
+          Việt Sử Ký
         </Link>
 
         <nav className="hidden md:flex gap-5 font-display text-sm tracking-wider text-paper">

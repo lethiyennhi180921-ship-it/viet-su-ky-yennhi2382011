@@ -16,7 +16,7 @@ const Index = () => {
 
       <footer className="py-10 px-4 text-center border-t border-gold/30 bg-crimson-deep text-paper/80">
         <p className="font-display italic text-gold">"Dân ta phải biết sử ta — Cho tường gốc tích nước nhà Việt Nam."</p>
-        <p className="text-sm mt-2">Sử Việt Ký © {new Date().getFullYear()}</p>
+        <p className="text-sm mt-2">Việt Sử Ký © {new Date().getFullYear()}</p>
         <p className="font-display text-gold-glow mt-3 tracking-wider">Tác giả: Lê Thị Yến Nhi · Lớp 9/2</p>
       </footer>
     </main>
