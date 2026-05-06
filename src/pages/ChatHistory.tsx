@@ -5,6 +5,9 @@ import SiteHeader from "@/components/SiteHeader";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { toast } from "sonner";
+import { supabase } from "@/integrations/supabase/client";
+import { useAuth } from "@/contexts/AuthContext";
+import { Link } from "react-router-dom";
 
 type Msg = { role: "user" | "assistant"; content: string };
 
