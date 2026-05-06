@@ -23,6 +23,7 @@ const SUGGESTIONS = [
 ];
 
 const ChatHistory = () => {
+  const { user } = useAuth();
   const [messages, setMessages] = useState<Msg[]>([
     {
       role: "assistant",
