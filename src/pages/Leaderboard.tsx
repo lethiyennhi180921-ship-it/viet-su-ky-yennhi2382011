@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import SiteHeader from "@/components/SiteHeader";
 import { supabase } from "@/integrations/supabase/client";
 import { Trophy, Crown, Medal } from "lucide-react";
+import leaderboardBg from "@/assets/leaderboard-bg.jpg";
 
 interface Row {
   id: string;
@@ -48,7 +49,16 @@ const Leaderboard = () => {
   }, [tab]);
 
   return (
-    <main className="min-h-screen bg-background">
+    <main
+      className="min-h-screen bg-background relative"
+      style={{
+        backgroundImage: `linear-gradient(hsl(var(--background) / 0.88), hsl(var(--background) / 0.94)), url(${leaderboardBg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center top",
+        backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed",
+      }}
+    >
       <SiteHeader />
       <section className="pt-28 pb-20 px-4">
         <div className="container mx-auto max-w-3xl">
