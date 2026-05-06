@@ -26,7 +26,7 @@ const Hero = () => {
 
         <h1 className="font-display text-6xl md:text-8xl lg:text-9xl font-black mb-6 leading-none">
           <span className="text-gradient-gold drop-shadow-[0_4px_20px_rgba(184,134,11,0.5)]">
-            Sử Việt Ký
+            Việt Sử Ký
           </span>
         </h1>
 
