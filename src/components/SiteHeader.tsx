@@ -11,6 +11,7 @@ const SiteHeader = () => {
     { to: "/", label: "Trang chủ" },
     { to: "/dynasties", label: "Triều đại" },
     { to: "/challenge", label: "Thử thách" },
+    { to: "/quiz", label: "Trạng nguyên" },
     { to: "/videos", label: "Video sự kiện" },
     { to: "/chat", label: "Trò chuyện" },
     { to: "/leaderboard", label: "Bảng vàng" },

@@ -30,8 +30,8 @@ const Hero = () => {
           </span>
         </h1>
 
-        <p className="font-display italic text-2xl md:text-3xl text-gold-glow/95 mb-3 drop-shadow-lg">
-          “Dân ta phải biết sử ta”
+        <p className="font-display italic text-xl md:text-2xl text-gold-glow/95 mb-3 drop-shadow-lg">
+          Không gian trải nghiệm, học tập lịch sử qua tương tác
         </p>
         <p className="text-base md:text-lg text-paper/80 mb-10 max-w-2xl mx-auto">
           Hành trình qua bốn nghìn năm dựng nước và giữ nước — nơi anh hùng, sử thi và những trang vàng chói lọi sống mãi.

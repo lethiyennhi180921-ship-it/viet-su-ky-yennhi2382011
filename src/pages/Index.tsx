@@ -1,7 +1,6 @@
 import Hero from "@/components/Hero";
 import Timeline from "@/components/Timeline";
 import HeroesGallery from "@/components/HeroesGallery";
-import Quiz from "@/components/Quiz";
 import Poetry from "@/components/Poetry";
 import SiteHeader from "@/components/SiteHeader";
 import { Link } from "react-router-dom";
@@ -32,7 +31,6 @@ const Index = () => {
 
       <Timeline />
       <HeroesGallery />
-      <Quiz />
       <Poetry />
 
       <footer className="py-10 px-4 text-center border-t border-gold/30 bg-crimson-deep text-paper/80">
