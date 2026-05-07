@@ -13,7 +13,7 @@ import challengeGirl from "@/assets/challenge-girl.png";
 import challengeBoy from "@/assets/challenge-boy.png";
 
 const bgStyle = {
-  backgroundImage: `linear-gradient(180deg, hsl(var(--background) / 0.45), hsl(var(--background) / 0.55)), url(${challengeBg})`,
+  backgroundImage: `linear-gradient(180deg, hsl(var(--background) / 0.25), hsl(var(--background) / 0.35)), url(${challengeBg})`,
   backgroundSize: "cover",
   backgroundPosition: "center top",
   backgroundRepeat: "no-repeat",
