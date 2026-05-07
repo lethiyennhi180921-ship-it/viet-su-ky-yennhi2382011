@@ -8,6 +8,15 @@ import { Link, useNavigate } from "react-router-dom";
 import { supabase } from "@/integrations/supabase/client";
 import { checkAndAward } from "@/lib/badges";
 import { toast } from "@/hooks/use-toast";
+import challengeBg from "@/assets/challenge-bg.jpg";
+
+const bgStyle = {
+  backgroundImage: `linear-gradient(180deg, hsl(var(--background) / 0.85), hsl(var(--background) / 0.9)), url(${challengeBg})`,
+  backgroundSize: "cover",
+  backgroundPosition: "center top",
+  backgroundRepeat: "no-repeat",
+  backgroundAttachment: "fixed" as const,
+};
 
 const TOTAL = 30;
 const TIME_PER_Q = 20; // seconds
