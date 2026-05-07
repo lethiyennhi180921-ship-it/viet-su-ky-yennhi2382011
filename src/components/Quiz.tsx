@@ -6,6 +6,7 @@ import { useAuth } from "@/contexts/AuthContext";
 import { supabase } from "@/integrations/supabase/client";
 import { checkAndAward } from "@/lib/badges";
 import { toast } from "@/hooks/use-toast";
+import quizBg from "@/assets/quiz-bg.jpg";
 
 const Quiz = () => {
   const { user } = useAuth();
@@ -83,7 +84,13 @@ const Quiz = () => {
   }
 
   return (
-    <section id="quiz" className="py-24 px-4 bg-gradient-to-b from-muted/40 via-background to-muted/40">
+    <section
+      id="quiz"
+      className="py-24 px-4 bg-cover bg-center bg-no-repeat"
+      style={{
+        backgroundImage: `linear-gradient(180deg, hsl(var(--background) / 0.85), hsl(var(--background) / 0.9)), url(${quizBg})`,
+      }}
+    >
       <div className="container mx-auto max-w-2xl">
         <div className="text-center mb-10 animate-fade-in-up">
           <p className="text-gold tracking-[0.3em] uppercase text-sm mb-3 font-display">Khoa thi đình</p>
