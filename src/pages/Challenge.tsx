@@ -211,6 +211,7 @@ const Challenge = () => {
               </div>
             )}
           </div>
+          </div>
         </div>
       </section>
     </main>
