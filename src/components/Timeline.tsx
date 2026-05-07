@@ -46,7 +46,7 @@ const Timeline = () => {
                   </div>
 
                   {/* Card alternating */}
-                  <div className={`${i % 2 === 0 ? "mb-32" : "mt-32"} bg-card border-2 border-gold/40 rounded-lg p-5 hero-card text-left group-hover:border-gold`}>
+                  <div className={`${i % 2 === 0 ? "mt-32" : "mt-32"} bg-card border-2 border-gold/40 rounded-lg p-5 hero-card text-left group-hover:border-gold bg-[#141457]`}>
                     <div className="text-gold font-display text-2xl font-bold mb-2">{ev.year}</div>
                     <div className="font-display text-lg text-primary font-semibold leading-snug">{ev.title}</div>
                     <div className="text-xs text-muted-foreground mt-2 italic">Bấm để xem chi tiết →</div>
