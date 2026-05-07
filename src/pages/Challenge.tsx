@@ -134,7 +134,18 @@ const Challenge = () => {
   return (
     <main className="min-h-screen bg-background" style={bgStyle}>
       <SiteHeader />
-      <section className="pt-28 pb-20 px-4">
+      <section className="pt-28 pb-20 px-4 relative">
+        <img
+          src={challengeGirl}
+          alt="Bé gái suy nghĩ"
+          className="hidden lg:block absolute left-4 top-32 w-40 xl:w-52 pointer-events-none select-none animate-float"
+        />
+        <img
+          src={challengeBoy}
+          alt="Bé trai thắc mắc"
+          className="hidden lg:block absolute right-4 top-32 w-40 xl:w-52 pointer-events-none select-none animate-float"
+          style={{ animationDelay: "1s" }}
+        />
         <div className="container mx-auto max-w-2xl">
           <div className="text-center mb-8 animate-fade-in-up">
             <p className="text-gold tracking-[0.3em] uppercase text-sm mb-2 font-display">4000 năm lịch sử</p>
