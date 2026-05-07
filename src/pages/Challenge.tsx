@@ -9,6 +9,8 @@ import { supabase } from "@/integrations/supabase/client";
 import { checkAndAward } from "@/lib/badges";
 import { toast } from "@/hooks/use-toast";
 import challengeBg from "@/assets/challenge-bg.jpg";
+import challengeGirl from "@/assets/challenge-girl.png";
+import challengeBoy from "@/assets/challenge-boy.png";
 
 const bgStyle = {
   backgroundImage: `linear-gradient(180deg, hsl(var(--background) / 0.85), hsl(var(--background) / 0.9)), url(${challengeBg})`,
