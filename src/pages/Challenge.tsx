@@ -13,7 +13,7 @@ import challengeGirl from "@/assets/challenge-girl.png";
 import challengeBoy from "@/assets/challenge-boy.png";
 
 const bgStyle = {
-  backgroundImage: `linear-gradient(180deg, hsl(var(--background) / 0.45), hsl(var(--background) / 0.55)), url(${challengeBg})`,
+  backgroundImage: `linear-gradient(180deg, hsl(var(--background) / 0.25), hsl(var(--background) / 0.35)), url(${challengeBg})`,
   backgroundSize: "cover",
   backgroundPosition: "center top",
   backgroundRepeat: "no-repeat",
@@ -135,23 +135,25 @@ const Challenge = () => {
     <main className="min-h-screen bg-background" style={bgStyle}>
       <SiteHeader />
       <section className="pt-28 pb-20 px-4 relative">
-        <img
-          src={challengeGirl}
-          alt="Bé gái suy nghĩ"
-          className="hidden lg:block absolute left-4 top-32 w-40 xl:w-52 pointer-events-none select-none animate-float"
-        />
-        <img
-          src={challengeBoy}
-          alt="Bé trai thắc mắc"
-          className="hidden lg:block absolute right-4 top-32 w-40 xl:w-52 pointer-events-none select-none animate-float"
-          style={{ animationDelay: "1s" }}
-        />
-        <div className="container mx-auto max-w-2xl">
+        <div className="container mx-auto max-w-2xl relative">
           <div className="text-center mb-8 animate-fade-in-up">
             <p className="text-gold tracking-[0.3em] uppercase text-sm mb-2 font-display">4000 năm lịch sử</p>
             <h1 className="font-display text-4xl md:text-5xl font-bold text-primary mb-2">Thử Thách Lịch Sử</h1>
             <p className="text-foreground/80 text-sm">30 câu ngẫu nhiên · 3 mạng · 20 giây mỗi câu</p>
           </div>
+
+          <div className="relative">
+            <img
+              src={challengeGirl}
+              alt="Bé gái suy nghĩ"
+              className="hidden md:block absolute -left-24 lg:-left-32 -top-16 w-28 lg:w-36 xl:w-44 pointer-events-none select-none animate-float z-10 drop-shadow-xl"
+            />
+            <img
+              src={challengeBoy}
+              alt="Bé trai thắc mắc"
+              className="hidden md:block absolute -right-24 lg:-right-32 -top-16 w-28 lg:w-36 xl:w-44 pointer-events-none select-none animate-float z-10 drop-shadow-xl"
+              style={{ animationDelay: "1s" }}
+            />
 
           <div className="bg-card border-2 border-gold/40 rounded-lg p-6 md:p-8 shadow-[var(--shadow-card)]">
             <div className="flex items-center justify-between mb-3 text-sm font-display flex-wrap gap-2">
@@ -208,6 +210,7 @@ const Challenge = () => {
                 </button>
               </div>
             )}
+          </div>
           </div>
         </div>
       </section>
