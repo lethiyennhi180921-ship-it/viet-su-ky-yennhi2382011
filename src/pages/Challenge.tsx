@@ -94,7 +94,7 @@ const Challenge = () => {
   if (done) {
     const perfect = score === TOTAL;
     return (
-      <main className="min-h-screen bg-background">
+      <main className="min-h-screen bg-background" style={bgStyle}>
         <SiteHeader />
         <section className="pt-28 pb-20 px-4">
           <div className="container mx-auto max-w-2xl">
