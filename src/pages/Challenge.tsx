@@ -8,6 +8,15 @@ import { Link, useNavigate } from "react-router-dom";
 import { supabase } from "@/integrations/supabase/client";
 import { checkAndAward } from "@/lib/badges";
 import { toast } from "@/hooks/use-toast";
+import challengeBg from "@/assets/challenge-bg.jpg";
+
+const bgStyle = {
+  backgroundImage: `linear-gradient(180deg, hsl(var(--background) / 0.85), hsl(var(--background) / 0.9)), url(${challengeBg})`,
+  backgroundSize: "cover",
+  backgroundPosition: "center top",
+  backgroundRepeat: "no-repeat",
+  backgroundAttachment: "fixed" as const,
+};
 
 const TOTAL = 30;
 const TIME_PER_Q = 20; // seconds
@@ -85,7 +94,7 @@ const Challenge = () => {
   if (done) {
     const perfect = score === TOTAL;
     return (
-      <main className="min-h-screen bg-background">
+      <main className="min-h-screen bg-background" style={bgStyle}>
         <SiteHeader />
         <section className="pt-28 pb-20 px-4">
           <div className="container mx-auto max-w-2xl">
@@ -121,7 +130,7 @@ const Challenge = () => {
   }
 
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen bg-background" style={bgStyle}>
       <SiteHeader />
       <section className="pt-28 pb-20 px-4">
         <div className="container mx-auto max-w-2xl">
