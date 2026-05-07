@@ -1,9 +1,19 @@
 import { dynasties } from "@/data/dynasties";
 import SiteHeader from "@/components/SiteHeader";
+import dynastiesBg from "@/assets/dynasties-bg.jpg";
 
 const Dynasties = () => {
   return (
-    <main className="min-h-screen bg-background">
+    <main
+      className="min-h-screen bg-background"
+      style={{
+        backgroundImage: `linear-gradient(180deg, hsl(var(--background) / 0.85), hsl(var(--background) / 0.9)), url(${dynastiesBg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center top",
+        backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed",
+      }}
+    >
       <SiteHeader />
       <section className="pt-28 pb-20 px-4">
         <div className="container mx-auto">
