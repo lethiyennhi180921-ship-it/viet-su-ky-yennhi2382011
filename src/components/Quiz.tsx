@@ -88,7 +88,7 @@ const Quiz = () => {
       id="quiz"
       className="py-24 px-4 bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: `linear-gradient(180deg, hsl(var(--background) / 0.85), hsl(var(--background) / 0.9)), url(${quizBg})`,
+        backgroundImage: `linear-gradient(180deg, hsl(var(--background) / 0.45), hsl(var(--background) / 0.55)), url(${quizBg})`,
       }}
     >
       <div className="container mx-auto max-w-2xl">
